@@ -1,24 +1,4 @@
 # Help-Desk-Tickets
 Description of issue, resolution, and steps to resolve.
 
-Issue: Desktop would not turn on at all, no lights, no fan and nothing when they press power 
-Resolution: Sent a new desktop 
-Steps: Checked with known good outlet, asked for address, checked company documentation for setting up with the right computer and naming conventions, build the new replacement using imaging server imaging, logged in to verify it works, and shipped it to the customer's address with a return label so the dead unit comes back. 
-
-Issue: User cannot get to their files on the Marketing shared drive, kept getting “The network path was not found”. Their internet and email are both working correctly. 
-Resolution: Map network drive to marketing department drive 
-Steps: Remote connect to users PC, Open VPN Client, shows disconnected so click “connect”, open company documentation to view path for Marketing, on File explorer open see more then “map network drive” and enter UNC path for Marketing”, confirm the drive opens for the user. 
-
-Issue: User cannot log in, says expired 
-Resolution: Reset users password 
-Steps: Open Directory, search for user, send verification code to confirm identity, enter the code into the identity verification box, reset password using a temporary password, send the temp password to the user over Teams, ask the user to change the password after first log in. 
-
-Issue: Nobody has internet on the 3rd floor 
-Resolution: Reboot the floor’s switch 
-Steps: Open Server Room, check devices tab, click on Floor 3 Switch it says “Error”, rebooted, and asked user if they can connect. 
-
-Issue: A new employee needs account setup 
-Resolution:  Create a new user for a new hire 
-Steps:  Go to Directory, click new user, Enter user information, search for user to add to their department and other required provisions (add user to VPN users group, and CodeRepo-access group) 
-
  
